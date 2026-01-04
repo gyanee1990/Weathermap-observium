@@ -2,7 +2,7 @@
 
 ```
     cd /opt/observium/html 
-    git clone https://github.com/ZerxXxes/weathermap-for-observium.git weathermap
+    git clone https://github.com/gyanee1990/Weathermap-observium.git weathermap
 ```
 
 2. Edit data-pick.php and make sure the variables at the start are all ok.
@@ -11,7 +11,7 @@
 
 4. Make the configs directory writeable by your web server, either chown apache:apache configs/ or chmod 777 configs (I'd highly advise you choose the first option, replace apache:apache with your web servers user and group.)
 
-5. Point your browser to your install /weathermap/editor.php (i.e http://testurl.org/weathermap/editor.php)
+5. Point your browser to your install /weathermap/editor.php (i.e http://obs.org/weathermap/editor.php)
 
 6. Create your maps, please note when you create a MAP, please click Map Style, ensure Overlib is selected for HTML Style and click submit.
 
